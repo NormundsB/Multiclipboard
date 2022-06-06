@@ -6,7 +6,7 @@ from email.message import EmailMessage
 subject = "Email from Python"
 boddy = "This is a test email from Python"
 sender_email = "normunds.barbans@gmail.com"
-receiver_email = "normunds.barbans@me.com"
+receiver_email = "normundsb@me.com"
 password = input("Type your password and press enter: ")
 
 message = EmailMessage()
