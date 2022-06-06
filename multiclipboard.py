@@ -26,7 +26,7 @@ if len(sys.argv) == 2:
 
     if command == "save":
         key = input("Enter a key: ")
-        # clipboard.copy(input("Enter a value: "))
+        clipboard.copy(input("Enter a value: "))
         data[key] = input("Enter what is It:")
         save_data(SAVED_DATA, data)
         print("Data saved!")
